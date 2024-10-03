@@ -1,4 +1,18 @@
 const loginForm = document.querySelector('.login-form');
+const labels = loginForm.querySelectorAll('label');
+const inputs = loginForm.querySelectorAll('input');
+const button = loginForm.querySelector('button');
+
+
+labels.forEach(label => {
+  label.classList.add('label-4'); // Додаємо клас для label
+});
+
+inputs.forEach(input => {
+  input.classList.add('input-4'); // Додаємо клас для input
+});
+
+button.classList.add('button-4'); 
 
 loginForm.addEventListener('submit', (event) => {
   event.preventDefault(); 

@@ -16,7 +16,8 @@ body {
 button {
   border: none;
 }
-.categories {
+
+#categories {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -185,7 +186,7 @@ color: #2e2f42;
   justify-content: center;
 }
 
-.container-6 {
+#controls {
   border-radius: 8px;
   padding: 32px;
   width: 486px;
@@ -244,7 +245,8 @@ height: 40px;
 background-color: #ff4e4e;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);   
 }
-.container-boxes {
+
+#boxes {
   border-radius: 8px;
   padding: 32px;
   width: 486px;
